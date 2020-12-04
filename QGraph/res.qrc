@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/new/Icon">
+        <file>Images/40.gif</file>
+        <file>Images/51.gif</file>
+        <file>Images/129.png</file>
+        <file>Images/add.png</file>
+        <file>Images/cancel.png</file>
+        <file>Images/close-file.png</file>
+        <file>Images/copy.png</file>
+        <file>Images/create.png</file>
+        <file>Images/cut.png</file>
+        <file>Images/help.png</file>
+        <file>Images/line.png</file>
+        <file>Images/new.png</file>
+        <file>Images/new-file.png</file>
+        <file>Images/open.png</file>
+        <file>Images/paste.png</file>
+        <file>Images/save.png</file>
+        <file>Images/square.png</file>
+        <file>Images/triangle.png</file>
+        <file>Images/wrong.png</file>
+        <file>Images/zoom-in.png</file>
+        <file>Images/zoom-out.png</file>
+        <file>Images/41.gif</file>
+        <file>Images/50.gif</file>
+        <file>Images/balance.png</file>
+        <file>Images/icon.png</file>
+        <file>Images/save-as.png</file>
+        <file>Images/dd8d0457c9fe1713c94d7ed9d5e097e74fa5e33429e34-GlmXy8_fw658.gif</file>
+    </qresource>
+</RCC>

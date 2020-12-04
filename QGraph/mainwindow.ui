@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1369</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>文件属性</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>未打开文件</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>文件名:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>1191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>16</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>610</y>
+      <width>1191</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>1350</x>
+      <y>20</y>
+      <width>20</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1369</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>新建(&amp;N)</string>
+    </property>
+    <addaction name="newFile1"/>
+    <addaction name="newFile2"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="openFile"/>
+    <addaction name="save2File"/>
+    <addaction name="saveFile"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>编辑(&amp;E) </string>
+    </property>
+    <addaction name="addVerex"/>
+    <addaction name="deletVertex"/>
+    <addaction name="separator"/>
+    <addaction name="addEdge"/>
+    <addaction name="deletedge"/>
+    <addaction name="separator"/>
+    <addaction name="setNum"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>帮助(&amp;H)</string>
+    </property>
+    <addaction name="aboutAction"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="newFile1"/>
+   <addaction name="newFile2"/>
+   <addaction name="separator"/>
+   <addaction name="openFile"/>
+   <addaction name="save2File"/>
+   <addaction name="saveFile"/>
+   <addaction name="separator"/>
+   <addaction name="addVerex"/>
+   <addaction name="deletVertex"/>
+   <addaction name="separator"/>
+   <addaction name="setNum"/>
+   <addaction name="separator"/>
+   <addaction name="addEdge"/>
+   <addaction name="deletedge"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="newFile1">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/new.png</normaloff>:/new/Icon/Images/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>静态存储图(A)</string>
+   </property>
+  </action>
+  <action name="newFile2">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/new-file.png</normaloff>:/new/Icon/Images/new-file.png</iconset>
+   </property>
+   <property name="text">
+    <string>动态存储图(B)</string>
+   </property>
+  </action>
+  <action name="openFile">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/open.png</normaloff>:/new/Icon/Images/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开文件(&amp;O)</string>
+   </property>
+  </action>
+  <action name="saveFile">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/save-as.png</normaloff>:/new/Icon/Images/save-as.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存文件(&amp;T)</string>
+   </property>
+  </action>
+  <action name="addVerex">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/51.gif</normaloff>:/new/Icon/Images/51.gif</iconset>
+   </property>
+   <property name="text">
+    <string>添加顶点(&amp;A)</string>
+   </property>
+  </action>
+  <action name="deletVertex">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/50.gif</normaloff>:/new/Icon/Images/50.gif</iconset>
+   </property>
+   <property name="text">
+    <string>删除顶点(&amp;B)</string>
+   </property>
+  </action>
+  <action name="addEdge">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/40.gif</normaloff>:/new/Icon/Images/40.gif</iconset>
+   </property>
+   <property name="text">
+    <string>添加边(&amp;C)</string>
+   </property>
+  </action>
+  <action name="deletedge">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/41.gif</normaloff>:/new/Icon/Images/41.gif</iconset>
+   </property>
+   <property name="text">
+    <string>删除边(&amp;D)</string>
+   </property>
+  </action>
+  <action name="setNum">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/balance.png</normaloff>:/new/Icon/Images/balance.png</iconset>
+   </property>
+   <property name="text">
+    <string>设置权值(&amp;G)</string>
+   </property>
+  </action>
+  <action name="aboutAction">
+   <property name="text">
+    <string>关于      </string>
+   </property>
+  </action>
+  <action name="sayaction">
+   <property name="text">
+    <string>说明     </string>
+   </property>
+  </action>
+  <action name="save2File">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/Icon/Images/save.png</normaloff>:/new/Icon/Images/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存文件(&amp;S)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
